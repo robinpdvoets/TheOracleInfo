@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-size: 62.5%; /* 1rem = 10px */
+    font-family: 'Noto Sans', sans-serif;
+    background: #F3E0EC;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header__div-h1 {
+    font-size: 4rem;
+}
+
+.header__div-nav {
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.header__div-p {
+
+}
