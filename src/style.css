@@ -15,7 +15,6 @@ html {
 }
 
 a {
-    text-decoration: none;
     color: black;
 }
 
@@ -32,7 +31,7 @@ a {
     align-items: center;
     border-bottom: 0.1rem solid black;
     position: fixed;
-    background: #F3E0EC;
+    background: #CA9CE1;
 }
 
 .header__div-h1 {
@@ -41,12 +40,22 @@ a {
 
 .header__div-nav {
     display: flex;
-    gap: 2rem;
+    gap: 4rem;
     font-size: 2rem;
     
 }
 
-.header__div-p {}
+.header__a {
+    text-decoration: none;
+}
+
+.header__div-p {
+    color: #685F74;
+}
+
+.header__div-p:hover {
+    text-decoration: underline;
+}
 
 .header__img {
     width: 100%;
@@ -57,14 +66,40 @@ a {
     padding: 2rem;
 }
 
+.main__div-info {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.main__div-info2 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.main__div-info3 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
 .main__div-infoh2 {
     font-size: 3rem;
     padding-bottom: 0.4rem;
+    width: 100%;
+    padding-top: 1.5rem;
+    text-align: center;
 }
 
 .main__div-infop {
     font-size: 1.5rem;
-    max-width: 25%;
+    max-width: 75%;
 }
 
 .footer__main {
@@ -96,4 +131,13 @@ a {
     font-size: 1.5rem;
     color: white;
     padding-top: 0.2rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer__icons {
+    height: 2rem;
+    width: 2rem;
+    align-items: center;
 }
